@@ -24,7 +24,7 @@ cd ASLTranslator
 ```
 
 ### 2. Install dependencies
-It's recommended to use a virtual environment.
+It's recommended to use a Python 3.11.4 virtual environment. 
 ```bash
 pip install -r requirements.txt
 ```

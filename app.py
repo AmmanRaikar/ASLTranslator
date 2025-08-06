@@ -2,12 +2,10 @@ from flask import Flask, render_template, request, jsonify
 import base64
 import cv2
 import numpy as np
-import pickle
 import json
 import os
 from utils import extract_hand_landmarks
 import joblib
-import io
 import mediapipe as mp
 
 
@@ -71,4 +69,5 @@ def predict():
         return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))  # Use PORT env var for deployment
+    app.run(host='0.0.0.0', port=port, debug=False)
