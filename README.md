@@ -4,7 +4,7 @@ A real-time American Sign Language (ASL) hand gesture recognition web app that u
 
 ## 🌐 Live Demo
 
-> Coming soon:  
+[ASLTranslator](https://asltranslator-o0yb.onrender.com/)  
 
 ## 📸 Features
 
