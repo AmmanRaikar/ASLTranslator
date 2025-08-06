@@ -2,6 +2,12 @@
 
 A real-time American Sign Language (ASL) hand gesture recognition web app that uses machine learning and computer vision to translate static gestures into text. This project supports webcam input and displays live predictions with visual feedback.
 
+## ⚠️ Disclaimer
+This project is designed for local execution due to its computational demands. Real-time ASL translation involves MediaPipe hand tracking, video processing, and model inference, which may not run reliably on standard free hosting platforms.
+
+For best results, clone the repository and run it on a machine with a decent CPU (or ideally a GPU).
+> `You can still check out the demo on the hosted website but it is unreliable.`
+
 ## 🌐 Live Demo
 
 [ASLTranslator](https://asltranslator-o0yb.onrender.com/)  
