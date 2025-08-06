@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e2a38; /* dark grey-blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#video-frame {
+  max-width: 90vw;
+  max-height: 60vh;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 4px solid #30475e;
+  margin-bottom: 1rem;
+}
+
+#prediction {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #30475e;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#video-frame.fade {
+  transition: opacity 0.3s ease;
+}
+#video-frame.fade.hide {
+  opacity: 0;
+}
+#video-frame.fade.show {
+  opacity: 1;
+}
